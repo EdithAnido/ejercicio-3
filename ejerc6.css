@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+#caja{
+    width: 100%;
+   }
+#caja>*{
+    float: left;
+}
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    float: left;
+    width: 100%;
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    padding: 0 20%;
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+h1,h2,h3{
+    text-shadow: 2px 2px 3px red;
+}

@@ -1,0 +1,44 @@
+#buscadores{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 20%;
+}
+#buscadores > div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+        }
+#buscadores > div > a{
+    text-decoration: none;
+}
+#google a{
+    color: brown;
+    background-color: rgb(209, 238, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    }
+#bing a{
+color: rgb(190, 190, 192);
+background-color: brown;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: x-large;
+}
+#linkedin a{
+color: aliceblue;
+background-color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: medium;
+}
+#wiki a{
+color: chartreuse;
+background-color: darkmagenta;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: medium;
+}
+#mdn a{
+color: darkmagenta;
+background-color: chartreuse;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+}

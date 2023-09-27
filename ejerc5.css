@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    }
+#caja {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* yo lo hice con class, pero el profe lo hizo llamando a todos los divs hijos de caja */
+/* en ancho de las cajas yo había puesto px pero al achicar pantalla no me quedaban 3, lo cambié como el profe 30% lo cual es mejor porque asi las distribuye */
+.nuevo{
+    height: 60px;
+    width: 30%;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
